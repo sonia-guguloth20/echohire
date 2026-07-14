@@ -1,0 +1,29 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9
+alembic==1.13.1
+pydantic==2.7.1
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+
+# stats engine
+scipy==1.13.0
+statsmodels==0.14.2
+pandas==2.2.2
+numpy==1.26.4
+
+# NLP / embeddings
+sentence-transformers==2.7.0
+scikit-learn==1.4.2
+
+# PDF report generation
+weasyprint==62.1
+jinja2==3.1.4
+
+# AWS
+boto3==1.34.100
+
+# auth (phase 2)
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
